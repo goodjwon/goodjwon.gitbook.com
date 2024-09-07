@@ -30,7 +30,7 @@ const promise2 = new Promise((resolve, reject)=>{
 })
 ```
 
-![image.png](%5Bjavascript%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%5D%20Promise%20f5364ee28b43450bb5c7a6bcabf17521/image.png)
+![image.png](promise-imges/image.png)
 
 1. promise 에서 성공시는 resolve 에 넘겨받은 함수를 실행한다. 
 
@@ -49,7 +49,7 @@ setTimeout(()=>{
 // 브라우저에서 실행해 보면 fulfilled 상태 처리에 성공 했음을 알려준다.
 ```
 
-![image.png](%5Bjavascript%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%5D%20Promise%20f5364ee28b43450bb5c7a6bcabf17521/image%201.png)
+![image.png](promise-imges/image%201.png)
 
 1.  promise 실패 했을 때는 rejected에 대항하는 함수를 호출 하도록 한다. 
 
@@ -71,4 +71,4 @@ setTimeout(()=>{
 }, 2000);
 ```
 
-![image.png](%5Bjavascript%20%E1%84%80%E1%85%B5%E1%84%8E%E1%85%A9%5D%20Promise%20f5364ee28b43450bb5c7a6bcabf17521/image%202.png)
+![image.png](promise-imges/image%202.png)
